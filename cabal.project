@@ -1,3 +1,15 @@
 packages: .
 
+source-repository-package
+    type: git
+    location: https://github.com/NzSN/uuid.git
+    tag: master
+    subdir: uuid uuid-types
+
+source-repository-package
+    type: git
+    location: https://github.com/NzSN/time-compat.git
+    tag: master
+
+
 allow-newer: these:base
